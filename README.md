@@ -18,9 +18,10 @@ Clone this repository and install dependencies:
 git clone https://github.com/antongunov/learningstylegrid.com.git
 cd learningstylegrid.com
 sudo npm install
+```
 
-
-for debugging you may need:
+for debugging you may need some of these:
+```
 npm install font-awesome --save-dev
 sudo npm install pug-cli -g
 sudo npm install node-sass -g
