@@ -17,7 +17,15 @@ Clone this repository and install dependencies:
 ```bash
 git clone https://github.com/antongunov/learningstylegrid.com.git
 cd learningstylegrid.com
-npm install
+sudo npm install
+
+
+for debugging you may need:
+npm install font-awesome --save-dev
+sudo npm install pug-cli -g
+sudo npm install node-sass -g
+sudo npm install postcss-cli -g
+sudo npm install autoprefixer -g
 ```
 
 Run one of the next `npm` commands:
