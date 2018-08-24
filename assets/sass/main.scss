@@ -1,6 +1,10 @@
 @charset "utf-8";
 
+@import-autoprefixer;
+@import-cssnano;
+@import-fontMagician;
 @import-normalize;
+
 
 @import 'font-awesome/scss/font-awesome';
 
@@ -21,4 +25,3 @@
 @import 'components/nav-links';
 @import 'components/titles';
 @import 'components/transitions';
-

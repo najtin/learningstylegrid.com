@@ -10,13 +10,7 @@ block body
           ul.nav__list
             li.nav__item.nav__item--right
               +nav-link-github("style-home")
+      .main__button
+        a(href= "/pages/pug/sites/en/mainpage").button.button--secondary English
       footer.page__footer.footer
-        p
-          a(href= "/mainpage-en.html").button.button--secondary English
-        br
-        p
-          a(href= "/mainpage-de.html").button.button--secondary Deutsch
-        br
-        p
-          +coded-with-love-using("Vue.js", "https://vuejs.org/")
-        br
+        +coded-with-love-using("Vue.js", "https://vuejs.org/")
