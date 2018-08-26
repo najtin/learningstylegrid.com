@@ -3,6 +3,7 @@ import en_Instructions from '../components/Instructions.vue';
 import Inventory from '../components/Inventory.vue';
 import de_Instructions from '../components/de/de_Instructions.vue';
 import de_Inventory from '../components/de/de_Inventory.vue';
+import de_Grid from '../components/de/de_Grid.vue';
 export const routes = [
   {
     path: '/app/en/instructions',
@@ -18,6 +19,10 @@ export const routes = [
     props: ({ params }) => ({
       sentenceNumber: parseInt(params.sentenceNumber, 10),
     }),
+  },
+  {
+    path: '/app/de/grid',
+    component: de_Grid,
   },
   {
     path: '/app/de/inventory',

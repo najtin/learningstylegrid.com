@@ -1,0 +1,45 @@
+{
+  "initiating": {
+    "name": "initiierend",
+    "description": "",
+    "strengths": [
+      ""
+    ],
+    "challenges": [
+      ""
+    ],
+    "page": 195
+  },
+  "experiencing": {
+    "name": "erfahrend",
+    "page": 197
+  },
+  "creating": {
+    "name": "erstellend",
+    "page": 199
+  },
+  "reflecting": {
+    "name": "reflektierend",
+    "page": 201
+  },
+  "analyzing": {
+    "name": "analysierend",
+    "page": 203
+  },
+  "thinking": {
+    "name": "denkend",
+    "page": 205
+  },
+  "deciding": {
+    "name": "entscheidend",
+    "page": 207
+  },
+  "acting": {
+    "name": "handelnd",
+    "page": 209
+  },
+  "balancing": {
+    "name": "balancierend",
+    "page": 211
+  }
+}
