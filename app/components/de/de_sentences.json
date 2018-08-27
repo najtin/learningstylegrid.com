@@ -2,7 +2,7 @@
   {
     "begin": "..., wenn ich lerne.",
     "endings": {
-      "CE": "Ich gehe gerne mit meinen Gefühlen um",
+      "CE": "Ich beschäftige mich gerne mit meinen Gefühlen",
       "RO": "Ich sehe und höre gerne",
       "AC": "Ich denke gerne nach",
       "AE": "Ich mache gerne etwas"
@@ -11,7 +11,7 @@
   {
     "begin": "Ich lerne am besten, indem ... .",
     "endings": {
-      "CE": "ich meinem Spürsinn und Gefühlen vertraue",
+      "CE": "ich meinem Spürsinn und meinen Gefühlen vertraue",
       "RO": "ich sorgfälltig zuhöre und beobachte",
       "AC": "ich mich auf logisches Denken verlasse",
       "AE": "ich hart arbeite"
@@ -40,7 +40,7 @@
     "endings": {
       "CE": "Ich bin offen gegenüber neuen Erfahrungen",
       "RO": "Ich gucke mir alle Seiten von Problemen an",
-      "AC": "Ich analysiere Dinge gerne, und breche sie in ihre Bestandteile",
+      "AC": "Ich analysiere Dinge gerne, und zerlege sie in ihre Bestandteile",
       "AE": "Ich probiere gerne aus"
     }
   },
@@ -66,7 +66,7 @@
     "begin": "..., wenn ich lerne",
     "endings": {
       "CE": "Ich fühle mich persönlich involviert",
-      "RO": "Ich nehme mir meine Zeit bevor ich handel",
+      "RO": "Ich nehme mir meine Zeit, bevor ich handel",
       "AC": "Ich mag Ideen und Theorien",
       "AE": "Ich sehe gerne Ergebnisse meiner Arbeit"
     }
@@ -83,7 +83,7 @@
   {
     "begin": "..., wenn ich lerne.",
     "endings": {
-      "CE": "Ich bin eine entgegennehmende Person",
+      "CE": "Ich bin eine annehmende Person",
       "RO": "Ich bin eine reservierte Person",
       "AC": "Ich bin eine rationale Person",
       "AE": "Ich bin eine verantwortungsvolle Person"
@@ -92,7 +92,7 @@
   {
     "begin": "..., wenn ich lerne.",
     "endings": {
-      "CE": "Ich bin gerne engagiert",
+      "CE": "Ich egagiere mich gerne",
       "RO": "Ich beobachte gerne",
       "AC": "Ich werte gerne aus",
       "AE": "Ich bin gerne aktiv"
@@ -102,7 +102,7 @@
     "begin": "Ich lerne am besten, wenn ... .",
     "endings": {
       "CE": "ich ich aufgeschlossen bin",
-      "RO": "ich sorgfälltig bin",
+      "RO": "ich sorgfältig bin",
       "AC": "ich Ideen analysiere",
       "AE": "ich anwendungsoritiert arbeite"
     }

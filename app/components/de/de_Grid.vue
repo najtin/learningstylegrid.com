@@ -3,7 +3,7 @@
     <h1>Lernstil-Gitter</h1>
     <div class="grid__wrapper">
       <div class="grid__error-message" v-if="scoreSum !== (1 + 2 + 3 + 4) * scoreCount">
-        <p>Enschuldigung, du hast noh nicht alle Fragen beantwortet. <i class="fa fa-lg fa-frown-o"></i></p>
+        <p>Enschuldigung, es wurden noch nicht alle Fragen beantwortet. <i class="fa fa-lg fa-frown-o"></i></p>
       </div>
       <div v-else>
         <div class="grid__chart">
@@ -12,8 +12,8 @@
             @define-learning-style="learningStyle = $event"></app-chart>
         </div>
         <div class="grid__learning-style">
-          <p>Du hast den <strong>{{ learningStyle.name }}</strong> Lernstil.</p>
-          <p>Für mehr Informationen, kannst du die Seite #{{ learningStyle.page }} des Handbuchs <a href="https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/" target="_blank">KLSI 4.0 nachsehen.</a>.</p>
+          <p>Du hast den <strong>{{ learningStyle.name }}en</strong> Lernstil.</p>
+          <p>Für mehr Informationen, kannst du die Seite #{{ learningStyle.page }} des Handbuchs <a href="https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/" target="_blank">KLSI 4.0 lesen.</a>.</p>
         </div>
       </div>
       <div class="grid__buttons">

@@ -28,8 +28,8 @@
 </template>
 
 <script type="text/javascript">
-  import percentiles from './percentiles.json';
-  import learningStyles from './learning-styles.json';
+  import percentiles from '../percentiles.json';
+  import learningStyles from './en_learning-styles.json';
 
   export default {
     name: 'Chart',

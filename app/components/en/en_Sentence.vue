@@ -13,7 +13,8 @@
 </template>
 
 <script type="text/javascript">
-  import Ending from './Ending.vue';
+  import App from './en_sentenceloader.vue';
+  import Ending from './en_Ending.vue';
 
   export default {
     name: 'Sentence',

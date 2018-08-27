@@ -1,6 +1,6 @@
 <template>
   <div class="instructions">
-    <h1 class="instructions__title">Anleitung für das<abbr title="Lernstil-Inventar">LSI</abbr></h1>
+    <h1 class="instructions__title">Anleitung für das <abbr title="Lernstil-Inventar">LSI</abbr></h1>
     <ol class="instructions__list">
       <li class="instructions__item instruction">
         <span class="instruction__text" v-once>Bewerte die Enden von {{ sentenceCount }} Sätzen: 4 für das auf dich zutreffenste, 1 für das auf dich unpassendste.</span>

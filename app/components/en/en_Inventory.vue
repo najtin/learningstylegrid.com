@@ -23,7 +23,8 @@
 </template>
 
 <script type="text/javascript">
-  import Sentence from './Sentence.vue';
+  import App from './en_sentenceloader.vue';
+  import Sentence from './en_Sentence.vue';
 
   export default {
     name: 'Inventory',
@@ -56,16 +57,16 @@
     methods: {
       prevSentence() {
         if (this.checkPrev) {
-          this.$router.push(`/app/inventory/sentence-${this.sentenceNumber - 1}`);
+          this.$router.push(`/app/en/inventory/sentence-${this.sentenceNumber - 1}`);
         } else {
-          this.$router.push('/app/instructions');
+          this.$router.push('/app/en/instructions');
         }
       },
       nextSentence() {
         if (this.checkNext) {
-          this.$router.push(`/app/inventory/sentence-${this.sentenceNumber + 1}`);
+          this.$router.push(`/app/en/inventory/sentence-${this.sentenceNumber + 1}`);
         } else {
-          this.$router.push('/app/grid');
+          this.$router.push('/app/en/grid');
         }
       },
       rankSentence(sentenceScores) {
