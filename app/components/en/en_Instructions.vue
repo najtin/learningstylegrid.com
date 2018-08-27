@@ -15,7 +15,7 @@
         <span class="instruction__text">Should take no more than 5 minutes.</span>
       </li>
     </ol>
-    <router-link to="/app/inventory" tag="a" class="instructions__button button button--primary">Start Inventory</router-link>
+    <router-link to="/app/en/inventory" tag="a" class="instructions__button button button--primary">Start Inventory</router-link>
   </div>
 </template>
 

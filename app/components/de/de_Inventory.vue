@@ -65,7 +65,7 @@
         if (this.checkNext) {
           this.$router.push(`/app/de/inventory/sentence-${this.sentenceNumber + 1}`);
         } else {
-          this.$router.push('/app/grid');
+          this.$router.push('/app/de/grid');
         }
       },
       rankSentence(sentenceScores) {
@@ -77,7 +77,6 @@
     },
   }
 </script>
-
 <style lang="scss" scoped>
   .inventory {
     &__sentence {

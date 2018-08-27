@@ -25,7 +25,7 @@
 
 <script type="text/javascript">
   import { mapGetters } from 'vuex'
-  import Chart from './Chart.vue';
+  import Chart from './en_Chart.vue';
 
   export default {
     name: 'Grid',
@@ -48,7 +48,7 @@
     },
     methods: {
       backInventory() {
-        this.$router.push(`/app/inventory/sentence-${this.sentenceCount}`);
+        this.$router.push(`/app/en/inventory/sentence-${this.sentenceCount}`);
       },
     },
   }
