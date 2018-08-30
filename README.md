@@ -17,8 +17,14 @@ Clone this repository and install dependencies:
 ```bash
 git clone https://github.com/najtin/learningstylegrid.com.git
 cd learningstylegrid.com
-sudo npm install
+sudo npm install 
 ```
+If it doesnt work yet do 
+
+```bash
+sudo npm install 
+```
+again. Sometimes it does help.
 
 for debugging you may need some of these:
 ```
