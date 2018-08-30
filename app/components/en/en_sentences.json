@@ -1,6 +1,6 @@
 [
   {
-    "begin": "When I learn",
+    "begin": "When I learn ...",
     "endings": {
       "CE": "I like to deal with my feelings",
       "RO": "I like to watch and listen",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "begin": "I learn best when",
+    "begin": "I learn best when ...",
     "endings": {
       "CE": "I trust my hunches and feelings",
       "RO": "I listen and watch carefully",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "begin": "When I am learning",
+    "begin": "When I am learning ...",
     "endings": {
       "CE": "I have strong feelings and reactions",
       "RO": "I am quiet and reserved",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "begin": "I learn by",
+    "begin": "I learn by ...",
     "endings": {
       "CE": "feeling",
       "RO": "watching",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "begin": "When I learn",
+    "begin": "When I learn ...",
     "endings": {
       "CE": "I am open to new experiences",
       "RO": "I look at all sides of issues",
@@ -45,7 +45,7 @@
     }
   },
   {
-    "begin": "When I am learning",
+    "begin": "When I am learning ...",
     "endings": {
       "CE": "I am an intuitive person",
       "RO": "I am an observant person",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "begin": "I learn best from",
+    "begin": "I learn best from ...",
     "endings": {
       "CE": "personal relationships",
       "RO": "observation",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "begin": "When I learn",
+    "begin": "When I learn ...",
     "endings": {
       "CE": "I feel personally involved",
       "RO": "I take my time before acting",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "begin": "I learn best when",
+    "begin": "I learn best when ...",
     "endings": {
       "CE": "I rely on my feelings",
       "RO": "I rely on my observations",
@@ -81,7 +81,7 @@
     }
   },
   {
-    "begin": "When I am learning",
+    "begin": "When I am learning ...",
     "endings": {
       "CE": "I am an accepting person",
       "RO": "I am a reserved person",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "begin": "When I learn",
+    "begin": "When I learn ...",
     "endings": {
       "CE": "I get involved",
       "RO": "I like to observe",
@@ -99,7 +99,7 @@
     }
   },
   {
-    "begin": "I learn best when",
+    "begin": "I learn best when ...",
     "endings": {
       "CE": "I am receptive and open-minded",
       "RO": "I am careful",
