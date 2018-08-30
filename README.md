@@ -15,7 +15,7 @@
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/antongunov/learningstylegrid.com.git
+git clone https://github.com/najtin/learningstylegrid.com.git
 cd learningstylegrid.com
 sudo npm install
 ```
