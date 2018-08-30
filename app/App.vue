@@ -5,13 +5,14 @@
 </template>
 
 <script type="text/javascript">
-  import sentences from './sentences.json';
+  import de_sentences from './components/de/de_sentences.json';
+  import en_sentences from './components/en/en_sentences.json';
 
   export default {
-    name: 'App',
     created() {
-      this.$store.dispatch('initScores', sentences.length);
-      this.$store.dispatch('initSentences', sentences);
+      this.$store.dispatch('initScores', en_sentences.length);
+      this.$store.dispatch('en_initSentences', en_sentences);
+      this.$store.dispatch('de_initSentences', de_sentences);
     },
   }
 </script>

@@ -1,5 +1,6 @@
 const state = {
   scores: [],
+  namespaced: true,
 };
 
 const mutations = {

@@ -1,3 +1,4 @@
+<!-- care when changeging  computed:sentence language sensitive -->
 <template>
   <div class="inventory">
     <div class="inventory_sentence">
@@ -23,7 +24,8 @@
 </template>
 
 <script type="text/javascript">
-  import Sentence from './de_Sentence.vue';
+  import Sentence from '../Sentence.vue';
+  import Inventory_base from '../Inventory_base.vue';
 
   export default {
     name: 'Inventory',
@@ -38,7 +40,7 @@
         return this.$store.getters.sentenceCount;
       },
       sentence() {
-        return this.$store.getters.sentence(this.sentenceNumber);
+        return this.$store.getters.de_sentence(this.sentenceNumber);
       },
       sentenceScores() {
         return this.$store.getters.sentenceScores(this.sentenceNumber);
@@ -75,16 +77,6 @@
         });
       }
     },
+    mixins: [Inventory_base],
   }
 </script>
-<style lang="scss" scoped>
-  .inventory {
-    &__sentence {
-
-    }
-
-    &__buttons {
-      margin: 1.5rem .15rem 0;
-    }
-  }
-</style>

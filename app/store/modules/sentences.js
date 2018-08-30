@@ -1,18 +1,24 @@
 const state = {
-  sentences: [],
+  de_sentences: [],
+  en_sentences: [],
+  namespaced: true,
 };
 
 const mutations = {
-  initSentences: (state, sentences) => state.sentences = sentences,
+  en_initSentences: (state, en_sentences) => state.en_sentences = en_sentences,
+  de_initSentences: (state, de_sentences) => state.de_sentences = de_sentences,
+
 };
 
 const actions = {
-  initSentences: ({ commit }, sentences) => commit('initSentences', sentences),
+  en_initSentences: ({ commit }, en_sentences) => commit('en_initSentences', en_sentences),
+  de_initSentences: ({ commit }, de_sentences) => commit('de_initSentences', de_sentences),
 };
 
 const getters = {
-  sentence: state => number => state.sentences[number - 1],
-  sentenceCount: state => state.sentences.length,
+  en_sentence: state => number => state.en_sentences[number - 1],
+  de_sentence: state => number => state.de_sentences[number - 1],
+  sentenceCount: state => state.en_sentences.length,
 };
 
 export default {

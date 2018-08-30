@@ -15,7 +15,7 @@
 
 
 <script type="text/javascript">
-  import Ending from './de_Ending.vue';
+  import Ending from './Ending.vue';
 
   export default {
     name: 'Sentence',

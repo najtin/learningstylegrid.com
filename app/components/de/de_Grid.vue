@@ -26,6 +26,7 @@
 <script type="text/javascript">
   import { mapGetters } from 'vuex'
   import Chart from './de_Chart.vue';
+  import Grid_base from '../Grid_base.vue'
 
   export default {
     name: 'Grid',
@@ -51,40 +52,6 @@
         this.$router.push(`/app/de/inventory/sentence-${this.sentenceCount}`);
       },
     },
+    mixins: [Grid_base],
   }
 </script>
-
-<style lang="scss" scoped>
-  .grid {
-    &__wrapper {
-      margin: 0 auto;
-      max-width: 19.5rem;
-    }
-
-    &__error-message {
-      color: $color-red;
-      font-weight: 600;
-
-      i {
-        background-color: $color-white;
-        border-radius: 50%;
-        color: $color-red;
-        font-size: 1.5rem;
-      }
-    }
-
-    &__chart {
-
-    }
-
-    &__learning-style {
-      a {
-        white-space: nowrap;
-      }
-    }
-
-    &__buttons {
-      margin: 1.5rem .15rem 0;
-    }
-  }
-</style>
