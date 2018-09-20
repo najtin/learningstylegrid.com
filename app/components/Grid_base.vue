@@ -27,6 +27,11 @@
       }
     }
 
+    &__description {
+      max-width: 340px;
+      margin: $font-height / 2 0;
+    }
+
     &__buttons {
       margin: 1.5rem .15rem 0;
     }

@@ -13,6 +13,12 @@
         </div>
         <div class="grid__learning-style">
           <p>Du hast den <strong>{{ learningStyle.name }}en</strong> Lernstil.</p>
+          <p>Stärken: {{ learningStyle.strengths }}</p>
+          <p>Lernumgebung: {{ learningStyle.enviroment }}</p>
+          <p>Herrausforderungen: {{ learningStyle.challenges }}</p>
+        </div>
+        <div class="grid__description"
+          <p>{{ learningStyle.description }}</p>
           <p>Für mehr Informationen, kannst du die Seite #{{ learningStyle.page }} des Handbuchs <a href="https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/" target="_blank">KLSI 4.0 lesen.</a>.</p>
         </div>
       </div>
