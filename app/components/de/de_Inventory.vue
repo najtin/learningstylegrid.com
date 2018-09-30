@@ -20,6 +20,11 @@
         {{ checkNext ? 'Weiter' : 'Zeige Diagramm' }} →
       </button>
     </div>
+    <div class="inventory__buttons">
+      <button class="button button--secondary" @click="skip">
+        Skip
+      </button>
+    </div>
   </div>
 </template>
 
@@ -67,8 +72,29 @@
         if (this.checkNext) {
           this.$router.push(`/app/de/inventory/sentence-${this.sentenceNumber + 1}`);
         } else {
+          var out = "";
+          for (var i = 1; i <= 12; i++) {
+            out += { ...this.$store.getters.sentenceScores(i)}.AC + ","
+                + { ...this.$store.getters.sentenceScores(i)}.CE + ","
+                + { ...this.$store.getters.sentenceScores(i)}.AE + ","
+                + { ...this.$store.getters.sentenceScores(i)}.RO;
+            if (i < 12) out += ","
+          }
+          this.$store.dispatch('questionsUpdate', {
+            questionsres: out,
+          });
           this.$router.push('/app/de/grid');
         }
+      },
+      skip() {
+        let i = this.sentenceCount;
+        while (i-- > 0){
+          this.$store.dispatch('updateScores', {
+            number: i,
+            scores: { CE: 1, RO: 2, AC: 3, AE: 4 },
+          });
+        }
+        this.$router.push('/app/de/inventory/sentence-12');
       },
       rankSentence(sentenceScores) {
         this.$store.dispatch('updateScores', {
