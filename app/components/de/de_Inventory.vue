@@ -20,11 +20,16 @@
         {{ checkNext ? 'Weiter' : 'Zeige Diagramm' }} →
       </button>
     </div>
-    <div class="inventory__buttons">
-      <button class="button button--secondary" @click="skip">
+  <!--  <div class="inventory__buttons">
+      <button class="button button strichstrich secondary" @click="skip">
         Skip
       </button>
-    </div>
+    </div>-->
+    <!--<div class="inventory__buttons">
+      <button class="button button strichstrich secondary" @click="skip2">
+        Skip2
+      </button>
+    </div>-->
   </div>
 </template>
 
@@ -92,6 +97,16 @@
           this.$store.dispatch('updateScores', {
             number: i,
             scores: { CE: 1, RO: 2, AC: 3, AE: 4 },
+          });
+        }
+        this.$router.push('/app/de/inventory/sentence-12');
+      },
+      skip2() {
+        let i = this.sentenceCount;
+        while (i-- > 0){
+          this.$store.dispatch('updateScores', {
+            number: i,
+            scores: { CE: 4, RO: 3, AC: 2, AE: 1 },
           });
         }
         this.$router.push('/app/de/inventory/sentence-12');

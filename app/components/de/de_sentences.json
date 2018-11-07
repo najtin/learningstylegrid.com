@@ -1,110 +1,110 @@
 [
   {
-    "begin": "..., wenn ich lerne.",
+    "begin": "Wenn ich lerne,",
     "endings": {
-      "CE": "Ich beschäftige mich gerne mit meinen Gefühlen",
-      "RO": "Ich sehe und höre gerne",
-      "AC": "Ich denke gerne nach",
-      "AE": "Ich mache gerne etwas"
+      "AE": "mache ich gerne etwas",
+      "RO": "sehe ich und höre ich gerne",
+      "CE": "beschäftige ich mich gerne mit meinen Gefühlen",
+      "AC": "denke ich gerne über meine Ideen nach"
     }
   },
   {
-    "begin": "Ich lerne am besten, indem ... .",
+    "begin": "Ich lerne am besten, indem ",
     "endings": {
-      "CE": "ich meinem Spürsinn und meinen Gefühlen vertraue",
-      "RO": "ich sorgfälltig zuhöre und beobachte",
+      "AE": "ich hart arbeite, um vorran zu kommen",
       "AC": "ich mich auf logisches Denken verlasse",
-      "AE": "ich hart arbeite"
+      "CE": "ich meinem Spürsinn und meinen Gefühlen vertraue",
+      "RO": "ich sorgfälltig zuhöre und beobachte"
     }
   },
   {
-    "begin": "..., wenn ich lerne.",
+    "begin": "Wenn ich lerne,",
     "endings": {
-      "CE": "Ich habe starke Gefühle und Reaktionen",
-      "RO": "Ich bin ruhig und zurückhaltend",
-      "AC": "Ich neige dazu Dinge logisch auzuschließen",
-      "AE": "Ich bin für die Dinge verantwortlich"
+      "RO": "bin ich ruhig und zurückhaltend",
+      "AE": "bin ich für die Dinge verantwortlich",
+      "AC": "neige ich dazu, Dinge logisch auzuschließen",
+        "CE": "habe ich starke Gefühle und Reaktionen"
     }
   },
   {
-    "begin": "Ich lerne durch ... .",
+    "begin": "Ich lerne durch ",
     "endings": {
+    "AE": "machen",
       "CE": "fühlen",
-      "RO": "sehen",
       "AC": "denken",
-      "AE": "machen"
+      "RO": "sehen"
     }
   },
   {
-    "begin": "..., wenn ich lerne.",
+    "begin": "Wenn ich lerne, ",
     "endings": {
-      "CE": "Ich bin offen gegenüber neuen Erfahrungen",
-      "RO": "Ich gucke mir alle Seiten von Problemen an",
-      "AC": "Ich analysiere Dinge gerne, und zerlege sie in ihre Bestandteile",
-      "AE": "Ich probiere gerne aus"
+      "AC": "analysiere ich gerne, und zerlege die Dinge in ihre Bestandteile",
+      "CE": "bin ich offen gegenüber neuen Erfahrungen",
+      "RO": "gucke ich mir alle Seiten eines Problems an",
+      "AE": "probiere ich gerne aus"
     }
   },
   {
-    "begin": "..., wenn ich lerne.",
+    "begin": "Wenn ich lerne,",
     "endings": {
-      "CE": "Ich bin eine intuitive Person",
-      "RO": "Ich bin eine beobachtende Person",
-      "AC": "Ich bin eine logische Person",
-      "AE": "Ich bin eine aktive Person"
+      "AC": "bin ich eine logische Person",
+      "RO": "bin ich eine beobachtende Person",
+      "AE": "bin ich eine aktive Person",
+      "CE": "bin ich eine intuitive Person"
     }
   },
   {
-    "begin": "Ich lerne am besten durch ... .",
+    "begin": "Ich lerne am besten durch",
     "endings": {
-      "CE": "persönliche Beziehungen",
-      "RO": "Beobachtungen",
+      "AE": "eine Chance zum ausprobieren und üben",
       "AC": "rationale Theorien",
-      "AE": "eine Chance zum ausprobieren und üben"
+      "RO": "Beobachtungen",
+      "CE": "persönliche Beziehungen"
     }
   },
   {
-    "begin": "..., wenn ich lerne",
+    "begin": "Wenn ich lerne",
     "endings": {
-      "CE": "Ich fühle mich persönlich involviert",
-      "RO": "Ich nehme mir meine Zeit, bevor ich handel",
-      "AC": "Ich mag Ideen und Theorien",
-      "AE": "Ich sehe gerne Ergebnisse meiner Arbeit"
+      "AC": "mag ich Ideen und Theorien",
+      "CE": "fühle ich mich persönlich involviert",
+      "RO": "nehme ich mir meine Zeit, bevor ich handel",
+      "AE": "sehe ich gerne Ergebnisse meiner Arbeit"
     }
   },
   {
-    "begin": "Ich lerne am besten, indem ... .",
+    "begin": "Ich lerne am besten, indem",
     "endings": {
-      "CE": "ich mich auf meine Gefühle verlasse",
-      "RO": "ich mich auf meine Beobachtungen verlasse",
       "AC": "ich mich auf meine Ideen verlasse",
+      "RO": "ich mich auf meine Beobachtungen verlasse",
+      "CE": "ich mich auf meine Gefühle verlasse",
       "AE": "ich selbst ausprobieren kann"
     }
   },
   {
-    "begin": "..., wenn ich lerne.",
+    "begin": "Wenn ich lerne,",
     "endings": {
-      "CE": "Ich bin eine annehmende Person",
-      "RO": "Ich bin eine reservierte Person",
-      "AC": "Ich bin eine rationale Person",
-      "AE": "Ich bin eine verantwortungsvolle Person"
+      "RO": "bin ich eine reservierte Person",
+      "AC": "bin ich eine rationale Person",
+      "CE": "bin ich eine annehmende Person",
+      "AE": "bin ich eine verantwortungsvolle Person"
     }
   },
   {
-    "begin": "..., wenn ich lerne.",
+    "begin": "Wenn ich lerne,",
     "endings": {
-      "CE": "Ich egagiere mich gerne",
-      "RO": "Ich beobachte gerne",
-      "AC": "Ich werte gerne aus",
-      "AE": "Ich bin gerne aktiv"
+      "RO": "beobachte ich gerne",
+      "AC": "werte ich gerne aus",
+      "CE": "egagiere ich mich gerne",
+      "AE": "bin ich gerne aktiv"
     }
   },
   {
     "begin": "Ich lerne am besten, wenn ... .",
     "endings": {
-      "CE": "ich ich aufgeschlossen bin",
-      "RO": "ich sorgfältig bin",
+      "CE": "ich aufgeschlossen bin",
       "AC": "ich Ideen analysiere",
-      "AE": "ich anwendungsoritiert arbeite"
+      "AE": "ich anwendungsoritiert arbeite",
+      "RO": "ich sorgfältig bin"
     }
   }
 ]

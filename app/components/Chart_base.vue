@@ -11,7 +11,7 @@
             }">{{ learningStyles[key].name }}</td>
         </tr>
       </table>
-      <div class="point" :style="pointPosition" :title="pointTitle"></div>
+      <!--<div class="point" :style="pointPosition" :title="pointTitle"></div>-->
     </div>
     <div class="chart__source-data">
       <p>

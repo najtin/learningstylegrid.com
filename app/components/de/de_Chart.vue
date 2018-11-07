@@ -67,8 +67,8 @@
 
             const sizeTable = 19.5;
             const diameterPoint = 2;
-            const offset = 100 * ((diameterPoint / sizeTable) / 2);
-
+            //const offset = 100 * ((diameterPoint / sizeTable) / 2);
+            const offset=0;
             return {
               top: y - offset + '%',
               left: (100 - x) - offset + '%',

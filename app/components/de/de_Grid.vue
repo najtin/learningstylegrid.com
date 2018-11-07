@@ -74,29 +74,16 @@ export default {
     exData(){
       var uuid = document.getElementById("uuid").value;
       if (uuid==="") return;
-      var out = "";
+      var out = "&order=ACCEAERO";
       for (var i = 1; i <= 12; i++) {
-        out += { ...this.$store.getters.sentenceScores(i)}.AC + ","
-            + { ...this.$store.getters.sentenceScores(i)}.CE + ","
-            + { ...this.$store.getters.sentenceScores(i)}.AE + ","
+        out +="&klsi"+i+"="+ { ...this.$store.getters.sentenceScores(i)}.AC
+            + { ...this.$store.getters.sentenceScores(i)}.CE
+            + { ...this.$store.getters.sentenceScores(i)}.AE
             + { ...this.$store.getters.sentenceScores(i)}.RO;
-        if (i < 12) out += ","
+
       }
-      window.location = "http://localhost:80/submit_results.php?"+"id="+uuid+"&questions="+out;
+      window.location = "http://localhost:80/submit_results.php?"+"id="+uuid+out;
     },
-  getAnswers() {
-    var out = "";
-    for (var j = 1; j <= 12; j++) {
-      out += { ...this.$store.getters.sentenceScores(i)}.AC + ","
-          + { ...this.$store.getters.sentenceScores(i)}.CE + ","
-          + { ...this.$store.getters.sentenceScores(i)}.AE + ","
-          + { ...this.$store.getters.sentenceScores(i)}.RO;
-      if (j < 12) out += ","
-    }
-    this.$store.dispatch('questionspropUpdate', {
-      questionsres: out,
-    });
-  },
 },
   mixins: [Grid_base],
 }
