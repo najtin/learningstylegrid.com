@@ -17,7 +17,7 @@
        </div>
        <div class="column">
          <div class="grid__learning-style">
-           <p>Du hast den <strong>{{ learningStyle.name }}en</strong> Lernstil.</p>
+           <p>Sie haben den <strong>{{ learningStyle.name }}en</strong> Lernstil.</p>
            <p>Stärken: {{ learningStyle.strengths }}</p>
            <p>Lernumgebung: {{ learningStyle.enviroment }}</p>
            <p>Herrausforderungen: {{ learningStyle.challenges }}</p>
@@ -25,9 +25,9 @@
        </div>
       </div>
       <div class="grid__description" <p>{{ learningStyle.description }}</p>
-        <p>Für mehr Informationen, kannst du die Seite #{{ learningStyle.page }} des Handbuchs <a href="https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/" target="_blank">KLSI 4.0 lesen.</a>.</p>
+        <p>Für mehr Informationen, können sie die Seite #{{ learningStyle.page }} des Handbuchs <a href="https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/" target="_blank">KLSI 4.0 lesen.</a>.</p>
         <div class="grid__important-message">
-          <p>Bitte füge hier die Nummer von oben links ein:<input type="text" id="uuid" value=""></p>
+          <p>Bitte fügen sie hier die Nummer von oben links ein:<input type="text" id="uuid" value=""></p>
           <div class="grid__buttons">
             <button class="button button--secondary" @click="exData"> Weiter </button>
           </div>
@@ -82,7 +82,7 @@ export default {
             + { ...this.$store.getters.sentenceScores(i)}.RO;
 
       }
-      window.location = "http://localhost:80/submit_results.php?"+"id="+uuid+out;
+      window.location = "https://ffp.informatik/submit_results.php?"+"id="+uuid+out;
     },
 },
   mixins: [Grid_base],
