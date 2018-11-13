@@ -22,7 +22,7 @@
     "endings": {
       "RO": "bin ich ruhig und zurückhaltend",
       "AE": "bin ich für die Dinge verantwortlich",
-      "AC": "neige ich dazu, Dinge logisch auzuschließen",
+      "AC": "neige ich dazu, Dinge logisch auszuschließen",
         "CE": "habe ich starke Gefühle und Reaktionen"
     }
   },
@@ -56,14 +56,14 @@
   {
     "begin": "Ich lerne am besten durch",
     "endings": {
-      "AE": "eine Chance zum ausprobieren und üben",
+      "AE": "eine Chance zum Ausprobieren und Üben",
       "AC": "rationale Theorien",
       "RO": "Beobachtungen",
       "CE": "persönliche Beziehungen"
     }
   },
   {
-    "begin": "Wenn ich lerne",
+    "begin": "Wenn ich lerne,",
     "endings": {
       "AC": "mag ich Ideen und Theorien",
       "CE": "fühle ich mich persönlich involviert",
@@ -94,7 +94,7 @@
     "endings": {
       "RO": "beobachte ich gerne",
       "AC": "werte ich gerne aus",
-      "CE": "egagiere ich mich gerne",
+      "CE": "engagiere ich mich gerne",
       "AE": "bin ich gerne aktiv"
     }
   },
