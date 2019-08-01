@@ -26,17 +26,49 @@
       </div>
       <div class="grid__description" <p>{{ learningStyle.description }}</p>
         <p>Für mehr Informationen, können sie die Seite #{{ learningStyle.page }} des Handbuchs <a href="https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/" target="_blank">KLSI 4.0 lesen.</a>.</p>
-        <div class="grid__important-message">
-          <p>Bitte fügen sie hier die Nummer von oben links ein:<input type="text" id="uuid" value=""></p>
-          <div class="grid__buttons">
-            <button class="button button--secondary" @click="exData"> Weiter </button>
+        <div align="center">
+          <div class="boxed" align="left">
+            <p><b>Der ermittelte Lernstil passt zu mir.</b></p>
+            <div align="right">
+              trifft voll zu<input id="rating" type="range" min="1" max="7" value="4">trifft gar nicht zu
+            </div>
+            <p><b>Fünfsteller:</b></p>
+            <div align="right"><p><input type="text" required id="id" value="" placeholder="abcde"></p></div>
+            <p><b>Studiengang:</b></p>
+            <div align="right">
+              <p><select id="course">
+                <option v-for="item in this.courses" :value='item'>
+                  {{ item }}
+                </option>
+              </select></p>
+            </div>
+            <p><b>Ich kann ...</b></p>
+            <div align="right">
+              <label v-for="(item,index) in this.can">
+                {{ item }}<input type="checkbox" :id='"can"+index'><br>
+              </label>
+            </div>
+              <p><b>Ich habe schon mal mit ... gearbeitet.</b></p>
+            <div align="right">
+              <label v-for="(item,index) in this.has">
+                {{ item }}<input type="checkbox" :id='"has"+index'><br>
+              </label>
+            </div>
+            <div align="center">
+              <p><label>Datenschutzzeug<input id="consent" type="checkbox"></label></p>
+              <div class="grid__buttons">
+                <button class="button button--secondary" @click="exData"> Weiter </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 </template>
+
 
 <script type="text/javascript">
 import {
@@ -44,6 +76,8 @@ import {
 } from 'vuex'
 import Chart from './de_Chart.vue';
 import Grid_base from '../Grid_base.vue';
+import courses from '../courses.json';
+
 
 
 export default {
@@ -53,6 +87,10 @@ export default {
       learningStyle: {
         name: 'Undefined',
       },
+      courses: courses,
+      ratings: [""],
+      can: ['eigene kleine Programme schreiben','Nutzer und Rechte verwalten, Prozesse beenden','die Kommandozeile benutzen'],
+      has: ["Datenbanken","Suchen/Sortieren","Bäumen/Listen/Graphen","Modellierung von Abläufen","Webseitenprogrammierung","logischen Schaltungen"],
     };
   },
   computed: mapGetters([
@@ -72,8 +110,9 @@ export default {
       this.$router.push(`/app/de/inventory/sentence-${this.sentenceCount}`);
     },
     exData(){
-      var uuid = document.getElementById("uuid").value;
-      if (uuid==="") return;
+      var id = document.getElementById("id").value;
+      if(id=="") return
+      if (document.getElementById("consent").checked==false) alert("Sie müssen den Datenschutzbestimmungen zustimmen, um sich anzumelden.");
       var out = "&order=ACCEAERO";
       for (var i = 1; i <= 12; i++) {
         out +="&klsi"+i+"="+ { ...this.$store.getters.sentenceScores(i)}.AC
@@ -82,7 +121,16 @@ export default {
             + { ...this.$store.getters.sentenceScores(i)}.RO;
 
       }
-      window.location = "https://ffp.informatik/submit_results.php?"+"id="+uuid+out;
+      for( var i = 0; i < this.can.length; i++) out+="&can"+i+"="+document.getElementById("can"+i).checked;
+      for( var i = 0; i < this.has.length; i++) out+="&has"+i+"="+document.getElementById("has"+i).checked;
+      window.location = "https://ffp.informatik/submit_results.php?"+"id="+id+out;
+    },
+    getCouses(){
+      var res="";
+      for (var j = 0; j < courses.length; j++) {
+        res+=`\<option value="${courses[j]}">${courses[j]}\</option\>`;
+      }
+      return res;
     },
 },
   mixins: [Grid_base],

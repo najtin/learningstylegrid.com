@@ -69,4 +69,8 @@
       display: table;
       clear: both;
   }
+  .boxed {
+    max-width: 700px;
+    border: 3px solid green ;
+  }
 </style>
