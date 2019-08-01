@@ -1,45 +1,78 @@
 {
   "initiating": {
     "name": "initiierend",
-    "description": "",
-    "strengths": [
-      ""
-    ],
-    "challenges": [
-      ""
-    ],
+    "description": "Sie lernen gerne - by doing - und wollen sich neuen Herausforderungen stellen. Gerne übernehmen sie die Führung und denken praktisch. Da sie bereit sind ein Risiko einzugehen, erkennen sie neue Möglichkeiten, um ihr Leben erfolgreich zu gestalten. Sie haben die Fähigkeit, neue Ideen und Projekte anzustoßen und eine Vorgehenweise zu entwicklen. Sie lernen eher durch den Wurf ins kalte Wasser als von einer Reflektion danach. Um Probleme zu lösen, verlässen sie scih mehr auf Personen um Informationen zu erhalten, als ihre eigene technische Analyse. Sie werden gesehen als: spontan, energiegeladen, überzeugend, mutig.",
+    "strengths": "Engagement für ihre Ziele, neue Möglichkeiten erkennen, Andere beeinflussen und leiten",
+    "challenges":  "Ungegduld, Kontrolle der Impulsreaktion, Hören von anderen Meinungen",
+    "enviroment": "Sie bevorzugen den Lehrer als Mentor. Am besten lernen sie, wenn sie mit anderen zusammen an einer Aufgabe arbeiten, Ziele definieren und verschiedene Strategien ausprobieren können.",
+
     "page": 195
   },
   "experiencing": {
     "name": "erfahrend",
+    "description": "Sie lernen durch Gefühle, Reaktionen auf Personen oder Situationen. Sie können die Gefühle von anderen gut einschätzen und enge, tiefe Beziehungen knüpfen. Sie sind offen und hören zu. Dies kann ihnen Schwierigkeiten beim unabhängigen Urteilen bereiten. Sie können unkonventionelle Wege nutzen, um ein Problem zu lösen. Ihr Ansatz ist eher intuitiv als logisch und sie versuchen es durch Reflektion und die Durchführung zu bestätigen. Sie werden gesehen als: empathisch, feinfühlig, hilfsbereit, intuitiv.",
+    "strengths": "Enge, tiefe Beziehungen bauen, starke Intuition, offen für neue Erfahrungen",
+    "challenges": "Theorie, systematisches Planen, Auswertung",
+    "enviroment": "Sie bevorzugen es in einer Umgebung mit vielen Interaktionen und Kommunikation mit ihren Freunden und Kollegen zu lernen. Sie arbeiten gerne in Gruppen, brauchen aber Zeit alleine, um vorran zu kommen. Es ist wichtig, dass sie konstruktives Feedback im Job und privat Leben bekommst. Ihnen ist eine persönliche Beziehung zum Lehrer wichtig.",
+
     "page": 197
   },
   "creating": {
     "name": "erstellend",
+    "description": "Sie lernen, indem sie ihre Gefühle und Erfahrungen reflektieren. Sie haben die Fähigkeit viele verschiedene Perspektiven auf ein Thema einzunehmen. Da sie ein Gespür für die Gefühle Anderer haben, können sie Brücken zwischen verschiedenen Meinung und Sichten bauen. Sie fühlen sich trotz Ungewissheit nicht unwohl und sehen nicht alles binär (schwarz oder weiß). Sie beobachten lieber als aktiv beteiligt zu sein. Sie erkennen Muster in Ereignissen, Beziehungen und Gruppen und verstehen deren Bedeutung. Vermutlich sind sie an einem breiten kulturellem Spektrum interessiert. Sie können sich die Folgen einer bestimmten Handlungsweise vorstellen und Alternativen aufzeigen.",
+    "challenges": "Entscheidungen treffen, Führung, schnelle Reaktion",
+    "strengths": "Gespür für Gefühle und Werte Anderer, offen zuhören, Einschätzung der Folgen von schwierigen Situationen.",
+    "enviroment": "Sie bevorzugen Gruppen mit offenen und frei fließenden Konversationen, um dort Informationen und persönliches Feedback zu erhalten. Ihnen gefallen Situationen, die ein große Reichweite an Ideen benötigen. Sie bevorzugen das Lernen mit Lehrern, die eine fördernde Rolle einnehmen.",
+
     "page": 199
   },
   "reflecting": {
     "name": "reflektierend",
+    "description": "Sie lernen, indem sie beobachten und reflektieren. Sie haben die Fähigkeit in ihre Reflektion Gefühle und Gedanken einfließen zu lassen. Ihnen gefallen Situationen, in denen verschiedene Alternativen, Perspektiven und das identifizieren von Problemen gefragt ist. Wegen ihrer tiefen Beobachtungsgabe, sind sie in der Lage die tiefere Bedeutung von Ereignissen, Fakten und Begegnungen zu erkennen. Sie schätzen den Austausch mit Anderen, um Ereignisse zu reflektieren. Wenn sie Informationen sortieren und analysieren, können sie die Informationen in einer verständlichen und sinnvollen Art und Weise organisieren. In Teams und Organisationen stechen sie durch das Schaffen von einer gesunden Kommunikation und sichtbaren Ergebnissen hervor. Sie können kreative Ideen und Lösungen entwickeln, überlassen aber die Umsetzung anderen. Sie haben ein Gespür für die Gefühle, Gedanken und Bedürfnissen Anderer und können eine gemeinsame Basis zwischen verschiednen Ideen und Perspektiven schaffen. Andere kennen sie als leise, einsichtig, sorgfälltig und tief.",
+    "strengths": "Andere Ansichten nachvollziehen, Situation richtig einschätzen, Intuitionen in explizite Erklärungen wandeln, Informationen sammeln",
+    "challenges": "Etwas ins rollen bringen, Grübeln, in Gruppen deine Meinung vertreten",
+    "enviroment": "Sie gehen in Umgebungen mit vielen Dialogen und Diskursen auf, aber sie können auch gut von Vorlesungen, Projekten und Lesen lernen. Wegen ihrer Vorliebe für tiefe Reflektionen, benötigen sie auch Zeit für sich zum Reflektieren und ihre eigene Sicht der Dinge zu erstellen. Sie schätzen Lehrer, die Möglichkeiten zur Individuellen- und Gruppenreflektion geben und offen für neue Ideen sind.",
+
     "page": 201
   },
   "analyzing": {
     "name": "analysierend",
+    "description": "Sie können eine große Menge an Informationen logisch zusammenfassen. Vermutlich sidn sie eher auf abstrakte Konzepten und Ideen als auf Menschen fokusiert. Viele Menschen mit diesem Lernstilen stimmen der Aussage zu, dass es wichtiger sei eine logische als eine Theroie mit praktischem Wert zu haben. Sie analysieren sorgfältig und wiegen vor jedem Schritt dessen Kosequenzen ab. Sie planen gerne vorraus, deshalb gelingt es ihnen Fehler zu vermeiden und potenzielle Probleme zu erkennen. Wenn sie mit Menschen umgehen, verlassen sie sich auf ihr logisches und objektives Verständnis der Situation. Dabei versuchen sich sich durch Gefühle nicht von ihrem Urteil abhalten zu lassen. Andere kennen sie als logisch, organisiert, verlässlich, sorgfältig, und wohl überlegt.",
+    "strengths": "Organisieren von Informationen, logisch und rational, Konzepte und Modelle erstellen",
+    "challenges": "Risiken aufnehmen, soziale Kontakte, mit fehlender Struktur umgehen",
+    "enviroment": "Sie gehen auf in einer Umgebung, in der sie ihre analytischen und konzeptuellen Fähigkeiten nutzen und weiter entwickeln können. Sie kommen gut mit Vorlesungen, Büchern, analytischen Modellen klar. Sie benötigen Zeit, um die Dinge noch einmal selbst zu durchdenken. Sie arbeiten lieber alleine als in Gruppen. Sie ziehen einen Lehrer vor, der seine Gedanken in Modellen und analytischen Verfahren in Vorlesungen und Interaktionen mit ihnen vorstellt.",
     "page": 203
   },
   "thinking": {
     "name": "denkend",
+    "description": "Sie lernen vorallem durch gründliche Abstraktion. Sie schätzen es die Dinge genau zu durchdenken und können eine große Menge an Informationen in präzise Ideen und Modelle fassen. Sie arbeiten gerne mit Zahlen und beschäftigen sich gerne mit Aktivitäten, die ihre analytischen Fähigkeiten und abstraktes Denken erforden. Sie arbeiten lieber mit quantitativen als mit qualitativen Daten. Sie arbeiten lieber alleine und ziehen es vor technische persöhnlichen Problemen zu lösen. Sie sind gut darin Pläne zu schmieden und Ziele zu setzen, aber sie konzentrieren sich eher auf die Qualität ihres Plans als die Umsetzung. Sie streben nach Beständigkeit und Genauigkeit in ihren Ansichten und Ideen. Sie tendieren zu konstrollierten Emotionen und sprechen präzise und knapp. Wenn sie handeln, dann sind ihre Handlungen gut durchdacht. Sie arbeiten hart daran Fehler zu vermeiden. Andere sehen sie als sorgfältig, präzise, verlässlich, beständig und nachdenklich.",
+    "strengths": "Logisches analysieren, rationale Entscheidungen, analyse quantitativer Daten",
+    "challenges": "Mit Anderen zusammen arbeiten, offene Sicht auf deine Ideen, in Gedanken verlieren",
+    "enviroment": "Sie lernen am besten in einer Lernumgebung mit klarer Struktur und klaren Lernzielen. Sie gehen auch in einer Umgebung auf, in der du Experiemente plannen und ausführen können und mit den resultierenden Daten spielen können. Sie ziehen es vor alleine zu arbeiten und brauchen Zeit, um die Dinge noch einmal selbst zu durchdenken. Für sie sind Lehrer vorallem wegen ihrer fachspezifische Expertise wichtig.",
     "page": 205
   },
   "deciding": {
-    "name": "entscheidend",
+    "name": "entschlossen",
+    "description": "Sie sind sehr gut darin praktische Nutzung von Ideen und Theorien zu finden. Sie haben die Fähigkeit, Probleme und Entscheidungen zu lösen bzw. zu treffen auf Basis rationaler Überlegeungen. Sie erkennen Fehler und Unstimmigkeiten in Konzepten und Ideen, indem sie sie im Feld austesten. Sie setzen gerne klare Ziele und finden dann durch evaluieren der Ziele den besten Weg diese zu erreichen. Sie arbeiten effizient und fokusiert. Dadurch lassen sie sich nicht leicht von tangierenden Informationen ablenken. Dies kann manchmal zu fehlenden wichtigen Informationen führen oder einer Lösung zum falschen Problem. ie fokusieren sich auf das Lösen von technischen Problemen, wenn sie mit Anderen zusammen arbeiten. Dabei tendieren sie dazu anderen bei der effizienten und effektiven Lösung ihrer Probleme zu helfen, und lassen dabei Gefühle und zwischenmenschliche Probleme außen vor. Andere sehen sie als fokusiert, pragmatisch, rational und entschlossen",
+    "strengths": "Probleme lösen, evaluieren von Ideen und Lösungen, Ziele setzen, Enscheidungen treffen",
+    "challenges": "\"out of the box\" denken, Sensibilität für die Gefühle von Anderen, Umgang mit Ungewissheit.",
+    "enviroment": "Sie lernen am besten in einer Lernumgebung, in der sie mit neuen Ideen, Simulationen, Laboraufgaben und praktische Aufgaben experimentieren können. Sie ziehen Lehrer vor, die klare Ziele und Standards setzen, und Probleme und Fragen evaluieren, die eine klare Antwort haben.",
     "page": 207
   },
   "acting": {
     "name": "handelnd",
+    "description": "Sie lernen primär durch Taten. Sie sind Ziel orientiert und fokusiert darauf, die Dinge fertig zu stellen. Sie sind gut darin, Pläne umzusetzen und Ideen zu testen. Dies gelingt, indem sie ihre Erfahrungen mit mit Ideen und Konzepten verbinden. Sie haben die Fähigkeit Lösungen oder Fragen durch technische analyse zu lösen, und dabei die Bedüfnisse der Menschen zu berücksichtigen. Sie fühlen sich wohl in einer praktischen Welt, in der sie ihre Gefühle und Handeln nutzen können, wie auch in einer technischen Welt, die ihre konzeptuellen Fähigkeiten nutzen können. Sie zeichnen sich durch integrierenden Handlungen und das Erkennen von den Bedürfnissen von Menschen. Sie sind gut darin, existierende Prozesse und Systeme zu verbessern. Sie zeichnen sich in führenden Positionen aus, die komplexe Prozesse und Systeme koordnieren muss. Sie tendieren dazu, sich für eine Idee einzusetzen ohne ihre Konsequenzen und alternative Optionen und Lösungen einzubeziehen, weil sie eine starke Präferenz für Handlungen statt Reflektion.",
+    "strengths": "Kombinieren von technischem Wissen und persönlichen Beziehungen, fokussiert auf erreichen von Zielen, Arbeitsgruppen leiten",
+    "challenges": "Reflektieren, die richtigen Probleme zu lösen, Informationen sammeln und analysieren",
+    "enviroment": "Sie lernen am besten durch Diskurse mit Kollegen und durch Teamwork. Sie präferieren Lehrer mit praktischen Erfahrungen, denen sie nacheifern können.",
     "page": 209
   },
   "balancing": {
     "name": "balancierend",
+    "description": "Ihre Herangehensweise an das Lernen ist, zwischen Empfinden und Denken sowie Reflektieren und Handeln zu balancieren. Sie können ihre Lernstrategie gut an die vorliegende Situation anzupassen. Sie sind offen für neue Erfahrungen. Sie können Probleme ebenso gut identifizieren wie lösen. Sie sind in der Lage verschiedene Perspektiven auf Probleme einzunehmen und können Brücken zwischen den Menschen mit unterschiedlichen Lernstilen vermitteln. In Gruppen sind sie fähig verschiedene Stile einzusetzen, um die fehlenden Stile im Team auszufüllen. Da sie eine ausgewogene Sicht auf die Welt haben, fällt es ihnen schwer Entscheidungen zu treffen oder zwischen Handlungsalternativen auszuwählen. Ihre Tendenz für verschiedene Interessen können sie im Laufe ihres Lebens durch verschiedene Berufe führen. Andere sehen sie als neugierig, offen, flexibel, Multitalent und einfallsreich.",
+    "strengths": "Flexibilität zwischen den Stilen zu wechseln, mit anderen unterschiedlichen Menschen zusammen arbeiten, kreative Einwürfe",
+    "challenges": "Unentschlossenheit, \"Alles ein bisschen und nichts so richtig.\", anhaltende Motivation",
+    "enviroment": "Sie tendieren zu Lernumgebungen, in denen sie alle Lernmodi nutzen können. Also zum Beispiel eine Kombination aus Vorlesungen, Diskursen, Branstorming, Laboren, \"learning by doing\". Durch ihre Fähigkeit zum Anpassen, können sie von verschiedenen Lehrern lernen.",
     "page": 211
   }
 }

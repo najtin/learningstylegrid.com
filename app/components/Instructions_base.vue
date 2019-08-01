@@ -23,7 +23,7 @@
       counter-reset: li;
       display: table;
       margin: 0 auto;
-      max-width: 340px;
+      max-width: 800px;
       padding: 0 0 3rem 0;
     }
 
@@ -34,6 +34,7 @@
 
   .instruction {
     display: table-row;
+
     margin: $font-height / 2 0;
 
     &:before {
@@ -48,9 +49,11 @@
       height: $size-circle;
       text-align: center;
       width: $size-circle;
+
     }
 
     &__text {
+      max-width: 340px;
       display: table-cell;
       padding: 0 0 1.5rem 1rem;
     }

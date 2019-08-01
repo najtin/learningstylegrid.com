@@ -44,7 +44,7 @@
     },
     computed: {
       title() {
-        return `#${this.number}. ${this.begin}`;
+        return `#${this.number}/12 ${this.begin}`;
       },
     },
     methods: {
@@ -65,6 +65,10 @@
 </script>
 
 <style lang="scss" scoped>
+
+  .md-progress-bar {
+    margin: 24px;
+  }
   .sentence {
     &__title {
 
