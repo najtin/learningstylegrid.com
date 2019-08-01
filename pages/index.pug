@@ -1,7 +1,22 @@
 extends pug/page
+
+mixin mainpage-de()
+  main.page__content.main
+    .main__title
+      h1.title.title--main Erstelle dein Lernstil-Diagramm
+      .main__text
+        p
+        | und entdecke deine Lernstärken und Lernherausforderungen
+        br
+        a(href= "https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/" target="_blank")
+          | Das Kolb Lernstil-Inventar 4.0
+      .main__button
+        a(href= "/app/de/instructions").button.button--secondary Los gehts!
+
+
 block data
-  - var title = "Learning Style Grid — Online tool to build a learning style grid using Kolb's inventory"
-  - var language = "en"
+  - var title = "Lernstil-Diagramm — Online Werkzeug zum erstellen eines Lernstil-Diagramms nach Kolbs Inventar"
+  - var language = "de"
 block body
   .page.page--bg-color-primary
     .page__wrapper
@@ -10,13 +25,6 @@ block body
           ul.nav__list
             li.nav__item.nav__item--right
               +nav-link-github("style-home")
+        +mainpage-de()
       footer.page__footer.footer
-        p
-          a(href= "/mainpage-en.html").button.button--secondary English
-        br
-        p
-          a(href= "/mainpage-de.html").button.button--secondary Deutsch
-        br
-        p
-          +coded-with-love-using("Vue.js", "https://vuejs.org/")
-        br
+        +coded-with-love-using("Vue.js", "https://vuejs.org/")
