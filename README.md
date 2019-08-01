@@ -1,6 +1,7 @@
 # Learning Style Grid
 
-[Learning Style Grid](http://learningstylegrid.com) is an online tool to build a learning style grid using [The Kolb Learning Style Inventory 4.0](https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/).
+This is a fork of the [Learning Style Grid](http://learningstylegrid.com) which is an online tool to build a learning style grid using [The Kolb Learning Style Inventory 4.0](https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/).
+Thank you, Anton Gunov, for starting this project!
 
 <p align="center">
   <a href="http://learningstylegrid.com/" target="_blank">
@@ -15,10 +16,16 @@
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/antongunov/learningstylegrid.com.git
+git clone https://github.com/najtin/learningstylegrid.com.git
 cd learningstylegrid.com
-sudo npm install
+sudo npm install 
 ```
+If it doesnt work yet do 
+
+```bash
+sudo npm install 
+```
+again. Sometimes it does help.
 
 for debugging you may need some of these:
 ```
