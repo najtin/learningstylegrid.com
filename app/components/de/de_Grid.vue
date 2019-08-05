@@ -55,11 +55,13 @@
               </label>
             </div>
             <div align="center">
-              <p><label>Datenschutzzeug<input id="consent" type="checkbox"></label></p>
+              <p><label>Ich bin einverstanden mit der Verarbeitung und Speicherung meiner Daten, wie in der <a target="_blank" href="">Datenschutzvereinbarung</a> berschrieben.<input id="consent" type="checkbox"></label></p>
               <div class="grid__buttons">
                 <button class="button button--secondary" @click="exData"> Weiter </button>
               </div>
             </div>
+            <div hidden id="ACCE">{{ learningStyle.ACCE }}</div>
+            <div hidden id="AERO">{{ learningStyle.AERO }}</div>
           </div>
         </div>
       </div>
@@ -112,25 +114,19 @@ export default {
     exData(){
       var id = document.getElementById("id").value;
       if(id=="") return
-      if (document.getElementById("consent").checked==false) alert("Sie müssen den Datenschutzbestimmungen zustimmen, um sich anzumelden.");
-      var out = "&order=ACCEAERO";
-      for (var i = 1; i <= 12; i++) {
-        out +="&klsi"+i+"="+ { ...this.$store.getters.sentenceScores(i)}.AC
-            + { ...this.$store.getters.sentenceScores(i)}.CE
-            + { ...this.$store.getters.sentenceScores(i)}.AE
-            + { ...this.$store.getters.sentenceScores(i)}.RO;
-
+      if (document.getElementById("consent").checked==false){
+        alert("Sie müssen den Datenschutzbestimmungen zustimmen, um sich anzumelden.");
+        return;
       }
-      for( var i = 0; i < this.can.length; i++) out+="&can"+i+"="+document.getElementById("can"+i).checked;
-      for( var i = 0; i < this.has.length; i++) out+="&has"+i+"="+document.getElementById("has"+i).checked;
-      window.location = "https://ffp.informatik/submit_results.php?"+"id="+id+out;
-    },
-    getCouses(){
-      var res="";
-      for (var j = 0; j < courses.length; j++) {
-        res+=`\<option value="${courses[j]}">${courses[j]}\</option\>`;
-      }
-      return res;
+      var out = "?id="+id+"&acce="+document.getElementById("ACCE").innerHTML+"&aero="+document.getElementById("AERO").innerHTML;
+      out+="&rating="+document.getElementById("rating").value;
+      //nur die Ergebnisse senden, nicht die eizelenen antworten
+      var experience = 0;
+      for( var i = 0; i < this.can.length; i++) if(true==document.getElementById("can"+i).checked) experience++;
+      for( var i = 0; i < this.has.length; i++) if(true==document.getElementById("has"+i).checked) experience++;
+      out += "&exp="+experience;
+      out += "&course="+document.getElementById("course").value;
+      window.location = "/submit/submitData.php"+out;
     },
 },
   mixins: [Grid_base],

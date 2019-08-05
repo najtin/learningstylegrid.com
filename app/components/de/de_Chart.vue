@@ -50,7 +50,8 @@
                 name: 'Undefined',
               };
             }
-
+            style.ACCE=this.ACCE;
+            style.AERO=this.AERO;
             this.$emit('define-learning-style', style);
 
             return style;
