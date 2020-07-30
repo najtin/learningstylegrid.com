@@ -32,7 +32,7 @@
             <div align="right">
               trifft voll zu<input id="rating" type="range" min="1" max="7" value="4">trifft gar nicht zu
             </div>
-            <p><b>Fünfsteller:</b></p>
+            <p><b>Fünfsteller oder E-Mail:</b></p>
             <div align="right"><p><input type="text" required id="id" value="" placeholder="abcde"></p></div>
             <p><b>Studiengang:</b></p>
             <div align="right">

@@ -49,6 +49,6 @@ export const routes = [
   //general
   {
     path: '/app',
-    redirect: '/app/en/instructions',
+    redirect: '/app/de/instructions',
   }
 ];
