@@ -1,3 +1,32 @@
+# THIS PROJECT IS ABONDANED AND IS NOT MAINTAINED ANYMORE. DONT USE IT. THIS REPOSITORY WILL EVENTUALLY BE DELETED.
+
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
 # Learning Style Grid
 
 This is a fork of the [Learning Style Grid](http://learningstylegrid.com) which is an online tool to build a learning style grid using [The Kolb Learning Style Inventory 4.0](https://learningfromexperience.com/research-library/the-kolb-learning-style-inventory-4-0/).
